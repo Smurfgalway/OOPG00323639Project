@@ -1,5 +1,5 @@
 package ie.gmit.sw.client;
 
-public class Runner {
+public interface UI {
 
 }

@@ -11,7 +11,7 @@ public class MyServer {
 	private volatile boolean keepRunning = true;
 	
 
-	private MyServer(){
+	public MyServer(){
 		try { 
 			
 			srs = new ServerSocket(ThePort); 

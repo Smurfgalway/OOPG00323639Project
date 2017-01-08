@@ -23,7 +23,7 @@ public class MyServer {
 			System.out.println("Server started and listening on port " + ThePort);
 			
 		} catch (IOException e) { 
-			System.out.println("Zoinks scoob somethings wrong" + e.getMessage());
+			System.out.println("Zoinks scoob somethings already running  : " + e.getMessage());
 		}
 	}
 	

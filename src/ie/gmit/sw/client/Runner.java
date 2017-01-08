@@ -8,11 +8,24 @@ public class Runner {
 	
 	public static void main(String[] args) throws Throwable {
 	UI face = new UI();
+	MyServer server = new  MyServer();
 	
 	int i = 0;
-	while (i <1){
+	while (i < 1){
+		face.theMenu();
 		if (face.selected == 1){
-			MyServer n = new  MyServer();
+			Connection connect = new Connection();
+			connect.run();
+		}
+		if (face.selected ==2){
+			
+		}
+		if (face.selected ==3){
+			
+		}
+		if (face.selected ==4){
+			System.out.println("Quitting the project");
+			i = 2;
 		}
 	}
 	

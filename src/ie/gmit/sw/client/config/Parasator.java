@@ -13,14 +13,14 @@ public class Parasator {
 		super();
 	
 	}
+
+	
 	public String getUsername() {
 		return username;
 	}
-
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	
 	public String getHost() {
 		return host;
 	}
@@ -43,7 +43,7 @@ public class Parasator {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Par [username=" + username +" host=" + host + ", port=" + port + ", dir =" + dir +"]";
+		return "par [username=" + username +" host=" + host + ", port=" + port + ", dir =" + dir +"]";
 	}
 	
 	

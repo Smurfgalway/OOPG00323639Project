@@ -14,8 +14,7 @@ public static void main(String[] args) {
 	System.out.println("4. Quit");
 	
 	System.out.println("\n Type Option []>");
-	while (i < 1) {
-		
-	}
+	
+
 }
 }

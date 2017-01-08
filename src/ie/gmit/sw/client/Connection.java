@@ -2,7 +2,7 @@ package ie.gmit.sw.client;
 
 import java.io.*;
 import java.net.Socket; 
-public class WebClient { 
+public class Connection { 
 	
 	public static void main(String[] args) throws Throwable{
 		final String request = "GET /characters.txt HTTP/1.1\n\n"; 

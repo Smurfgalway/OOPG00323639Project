@@ -16,10 +16,6 @@ public static void main(String[] args) {
 	System.out.println("\n Type Option []>");
 	while (i < 1) {
 		
-		if (""){
-			
-		}
-
 	}
 }
 }

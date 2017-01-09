@@ -16,14 +16,14 @@ public class MyServer {
 			
 			srs = new ServerSocket(ThePort); 
 			
-			Thread server = new Thread(new Listener(), "Web Server Listener");
+			Thread server = new Thread(new Listener(), "Web Server Listener"); 
 			server.setPriority(Thread.MAX_PRIORITY); 
 			server.start();
 			
-			System.out.println("Server started and listening on port " + ThePort);
+			System.out.println("Server started and listening on port " + ThePort); // message displays that the server is running and working
 			
 		} catch (IOException e) { 
-			System.out.println("Zoinks scoob somethings already running  : " + e.getMessage());
+			System.out.println("Zoinks scoob somethings already running  : " + e.getMessage()); // error message if the server is already running
 		}
 	}
 	
@@ -68,7 +68,7 @@ public class MyServer {
                 System.out.println(command);
                 
                 
-                String message = "<h1>Coolio BRO </h1>";
+                String message = "<h1>Coolio BRO </h1>"; //working socket
             	ObjectOutputStream out = new ObjectOutputStream(sock.getOutputStream());
                 out.writeObject(message);
                 out.flush();
@@ -76,7 +76,7 @@ public class MyServer {
                 
                 System.out.print("you are connected to server");
             } catch (Exception e) {
-            	System.out.println("Error processing request from " + sock.getRemoteSocketAddress());
+            	System.out.println("Error processing request from " + sock.getRemoteSocketAddress()); // error message for the sockets
             	e.printStackTrace();
             }
         }//run

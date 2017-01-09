@@ -2,7 +2,7 @@ package ie.gmit.sw.client;
 
 import java.io.File;
 
-public class FileFinder {
+public class FileFinder { // references from w3schools
 	
 	public void find() {
 		

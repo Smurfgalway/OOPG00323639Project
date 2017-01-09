@@ -22,7 +22,7 @@ public class Runner { // this class runs the menus from the UI along with what t
 			file.find();
 		}
 		if (face.selected ==3){
-			System.out.println("404 Download function not found"); //I did not get function working
+			System.out.println("404 Download function not found /n"); //I did not get function working
 		}
 		if (face.selected ==4){
 			System.out.println("Quitting the project"); // quits the project

@@ -1,7 +1,7 @@
 package ie.gmit.sw.client.config;
 
 
-public class Parasator {
+public class Parasator { // class has basic set up for the parsing the xml doc
 	public static final String CONF_FILE="config.xml";
 	private String username;
 	private String host;
